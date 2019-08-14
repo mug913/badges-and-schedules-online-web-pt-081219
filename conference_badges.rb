@@ -8,4 +8,6 @@ def batch_badge_creator(array)
   end
 end
 
-def assign
+def assign_rooms(array)
+  array.each do |name|
+    
