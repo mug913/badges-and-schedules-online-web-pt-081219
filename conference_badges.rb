@@ -8,3 +8,4 @@ def batch_badge_maker(array)
   end
 end
 
+def assign
