@@ -19,7 +19,10 @@ def assign_rooms(array)
   list_array
 end
 
-def printer
-  puts 
-
+def printer(array)
+  array.each do 
+puts (array) 
+puts assign_rooms(array)
+end
+end
     
