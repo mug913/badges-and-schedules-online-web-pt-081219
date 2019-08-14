@@ -23,9 +23,9 @@ def printer(array)
   count = 0
   array.each do |name|
     puts badge_maker(name) 
-    count =+ 1
   end
-
+while count < array.size do
 puts assign_rooms(array)[count]
+count += 1
 end
     
