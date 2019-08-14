@@ -25,7 +25,8 @@ puts badge_maker(name)
 end
 array.each do 
   count = 0
-puts assign_rooms(array)[count]
+assign_rooms(array)[count]
+puts list_array[count]
 count += 1
 end
 end
