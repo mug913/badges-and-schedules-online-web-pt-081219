@@ -23,9 +23,8 @@ def printer(array)
   array.each do |name|
 puts badge_maker(name) 
 end
-array.each do 
-puts assign_rooms(array).each
-count += 1
-end
+assign_rooms(array).each do
+  puts assign_rooms
+  end
 end
     
