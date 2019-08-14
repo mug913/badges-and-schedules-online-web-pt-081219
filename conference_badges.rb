@@ -28,4 +28,5 @@ while count < array.size do
 puts assign_rooms(array)[count]
 count += 1
 end
+end
     
