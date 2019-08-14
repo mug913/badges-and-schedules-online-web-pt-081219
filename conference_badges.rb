@@ -20,9 +20,9 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  array.each do |name|
+  array.each do |name,index|
 puts badge_maker(name) 
 end
-puts assign_rooms(array)
+puts assign_rooms(array)[index]
 end
     
